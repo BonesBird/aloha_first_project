@@ -73,7 +73,7 @@ body {
 
 .banner-image {
     max-width: 100%;
-    background-image: linear-gradient(rgba(55, 39, 204, 0.5), rgba(214, 16, 16, 0.5)), url("images/banner-girl.png"), url("images/flower-bkgd\ copy.jpg");
+    background-image: linear-gradient(rgba(113, 210, 255, 0.144), rgba(52, 112, 240, 0.068)), url("images/banner-girl.png"), url("images/flower-bkgd\ copy.jpg");
     flex-wrap: wrap;
     background-size: auto, contain, contain;
     background-position: center;
