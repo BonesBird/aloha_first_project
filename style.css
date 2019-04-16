@@ -1,18 +1,25 @@
+* {
+    box-sizing: border-box;
+    width: auto, fit-content, center;
+}
+
 .banner-image {
     max-width: 100%;
     background-image: linear-gradient(rgba(55, 39, 204, 0.5), rgba(214, 16, 16, 0.5)), url("images/banner-girl.png"), url("images/flower-bkgd\ copy.jpg");
     background-size: contain;
     background-position: center;
     background-size: contain, center;
-    background-repeat: repeat-x;
     border-image-repeat: stretch;
-    border-image-width: inherit;
 }
 
 .nav-container {
     color: rgb(255, 0, 0);
     caret-color: red;
     -webkit-text-fill-color: red
+}
+
+.shop-options-container {
+    background-image: linear-gradient(55, 40, 130, 0.3), url("images/mens-category.jpg");
 }
 
 .footer-container-image {
@@ -23,12 +30,10 @@
     /* position: relative; */
 }
 
-
 .sign-img {
-    background-image: linear-gradient(rgba(38, 0, 255, 0.247), rgba(0, 162, 255, 0.664)), url("images/wave-bkgd.jpg") ;
+    background-image: linear-gradient(rgba(38, 0, 255, 0.247), rgba(0, 162, 255, 0.664)), url("images/wave-bkgd.jpg");
     background-position: center, cover;
     background-repeat: repeat;
     background-size: contain;
     background-attachment: inherit;
-    
 }
