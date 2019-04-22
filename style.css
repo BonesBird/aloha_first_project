@@ -104,13 +104,17 @@ html {
 .flex-container {
     display: flex;
     flex-direction: row;
-    height: 150px;
+    height: 200px;
     flex-grow: 1;
     flex-shrink: 1;
 }
 
-.footer-container {
-    position: relative;
+.flex-wrapper {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
 }
 
 .sign-img {
