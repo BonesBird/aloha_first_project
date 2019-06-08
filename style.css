@@ -1,143 +1,162 @@
 * {
-    box-sizing: border-box;
-    width: auto, fit-content, center;
+  box-sizing: border-box;
+  width: auto, fit-content, center;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway-MediumItalic.eot');
-    src: url('fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'), url('fonts/Raleway-MediumItalic.woff2') format('woff2'), url('fonts/Raleway-MediumItalic.woff') format('woff'), url('fonts/Raleway-MediumItalic.ttf') format('truetype'), url('fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
-    font-weight: 500;
-    font-style: italic;
+  font-family: "Raleway";
+  src: url("fonts/Raleway-MediumItalic.eot");
+  src: url("fonts/Raleway-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Raleway-MediumItalic.woff2") format("woff2"), url("fonts/Raleway-MediumItalic.woff") format("woff"),
+    url("fonts/Raleway-MediumItalic.ttf") format("truetype"),
+    url("fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway-Light.eot');
-    src: url('fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'), url('fonts/Raleway-Light.woff2') format('woff2'), url('fonts/Raleway-Light.woff') format('woff'), url('fonts/Raleway-Light.ttf') format('truetype'), url('fonts/Raleway-Light.svg#Raleway-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Raleway";
+  src: url("fonts/Raleway-Light.eot");
+  src: url("fonts/Raleway-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Raleway-Light.woff2") format("woff2"), url("fonts/Raleway-Light.woff") format("woff"),
+    url("fonts/Raleway-Light.ttf") format("truetype"), url("fonts/Raleway-Light.svg#Raleway-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway-Medium.eot');
-    src: url('fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/Raleway-Medium.woff2') format('woff2'), url('fonts/Raleway-Medium.woff') format('woff'), url('fonts/Raleway-Medium.ttf') format('truetype'), url('fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Raleway";
+  src: url("fonts/Raleway-Medium.eot");
+  src: url("fonts/Raleway-Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Raleway-Medium.woff2") format("woff2"), url("fonts/Raleway-Medium.woff") format("woff"),
+    url("fonts/Raleway-Medium.ttf") format("truetype"), url("fonts/Raleway-Medium.svg#Raleway-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway-LightItalic.eot');
-    src: url('fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'), url('fonts/Raleway-LightItalic.woff2') format('woff2'), url('fonts/Raleway-LightItalic.woff') format('woff'), url('fonts/Raleway-LightItalic.ttf') format('truetype'), url('fonts/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
-    font-weight: 300;
-    font-style: italic;
+  font-family: "Raleway";
+  src: url("fonts/Raleway-LightItalic.eot");
+  src: url("fonts/Raleway-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Raleway-LightItalic.woff2") format("woff2"), url("fonts/Raleway-LightItalic.woff") format("woff"),
+    url("fonts/Raleway-LightItalic.ttf") format("truetype"),
+    url("fonts/Raleway-LightItalic.svg#Raleway-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('fonts/PlayfairDisplay-Italic.eot');
-    src: url('fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'), url('fonts/PlayfairDisplay-Italic.woff2') format('woff2'), url('fonts/PlayfairDisplay-Italic.woff') format('woff'), url('fonts/PlayfairDisplay-Italic.ttf') format('truetype'), url('fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
-    font-weight: normal;
-    font-style: italic;
+  font-family: "Playfair Display";
+  src: url("fonts/PlayfairDisplay-Italic.eot");
+  src: url("fonts/PlayfairDisplay-Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/PlayfairDisplay-Italic.woff2") format("woff2"), url("fonts/PlayfairDisplay-Italic.woff") format("woff"),
+    url("fonts/PlayfairDisplay-Italic.ttf") format("truetype"),
+    url("fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('fonts/PlayfairDisplay-Bold.eot');
-    src: url('fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/PlayfairDisplay-Bold.woff2') format('woff2'), url('fonts/PlayfairDisplay-Bold.woff') format('woff'), url('fonts/PlayfairDisplay-Bold.ttf') format('truetype'), url('fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Playfair Display";
+  src: url("fonts/PlayfairDisplay-Bold.eot");
+  src: url("fonts/PlayfairDisplay-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/PlayfairDisplay-Bold.woff2") format("woff2"), url("fonts/PlayfairDisplay-Bold.woff") format("woff"),
+    url("fonts/PlayfairDisplay-Bold.ttf") format("truetype"),
+    url("fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('fonts/PlayfairDisplay-Regular.eot');
-    src: url('fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'), url('fonts/PlayfairDisplay-Regular.woff') format('woff'), url('fonts/PlayfairDisplay-Regular.ttf') format('truetype'), url('fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Playfair Display";
+  src: url("fonts/PlayfairDisplay-Regular.eot");
+  src: url("fonts/PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("fonts/PlayfairDisplay-Regular.woff") format("woff"),
+    url("fonts/PlayfairDisplay-Regular.ttf") format("truetype"),
+    url("fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('fonts/PlayfairDisplay-BoldItalic.eot');
-    src: url('fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'), url('fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'), url('fonts/PlayfairDisplay-BoldItalic.woff') format('woff'), url('fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'), url('fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
+  font-family: "Playfair Display";
+  src: url("fonts/PlayfairDisplay-BoldItalic.eot");
+  src: url("fonts/PlayfairDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"),
+    url("fonts/PlayfairDisplay-BoldItalic.woff") format("woff"),
+    url("fonts/PlayfairDisplay-BoldItalic.ttf") format("truetype"),
+    url("fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
 }
-
+/* end of fonts */
 body {
-    font-family: "Raleway";
+  font-family: "Raleway";
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .banner-image {
-    max-width: 100%;
-    background-image: linear-gradient(rgba(113, 210, 255, 0.144), rgba(52, 112, 240, 0.068)), url("images/banner-girl.png"), url("images/flower-bkgd\ copy.jpg");
-    flex-wrap: wrap;
-    background-size: auto, contain, contain;
-    background-position: center;
-    background-repeat: repeat, no-repeat, repeat;
-    flex-grow: 1;
-    flex-shrink: 1;
+  max-width: 100%;
+  background-image: linear-gradient(rgba(113, 210, 255, 0.144), rgba(52, 112, 240, 0.068)),
+    url("images/banner-girl.png"), url("images/flower-bkgd\ copy.jpg");
+  flex-wrap: wrap;
+  background-size: auto, contain, contain;
+  background-position: center;
+  background-repeat: repeat, no-repeat, repeat;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
-.banner-text {
-    text-decoration-color: floralwhite;
-}
-
-.nav-container {
-    color: rgb(255, 0, 0);
-    caret-color: red;
-    -webkit-text-fill-color: red;
+.banner {
+  text-decoration-color: floralwhite;
 }
 
 .button1 {
-    padding: 20px;
-    border-radius: 55%
+  padding: 20px;
+  border-radius: 55%;
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    height: 200px;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-
-.flex-wrapper {
-    display: flex;
-    min-height: 50vh;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: black;
-}
-
-.sign-img {
-    background-image: linear-gradient(rgba(38, 0, 255, 0.247), rgba(0, 162, 255, 0.664)), url("images/wave-bkgd.jpg");
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    width: fill-content;
-    flex-grow: 1;
-    flex-shrink: 1;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .main-carousel {
-    list-style: none;
+  list-style: none;
 }
 
 .carousel-cell {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
-    .carousel-cell {
-        width: 25%;
-    }
+  .carousel-cell {
+    width: 25%;
+  }
+}
+
+/* scren reader */
+.screen-reader-text:focus {
+  clip: auto !important;
+  display: block;
+  height: auto;
+  left: 5px;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* above all content */
+}
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
