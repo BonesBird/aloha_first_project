@@ -18,20 +18,17 @@
   <body>
     <header class="site-header container">
       <img src="images/aloha-logo.svg" alt="img logo" />
-
+      <nav class="nav-container">
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#shop">SHOP</a></li>
+          <li><a href="#featured">FEATURED</a></li>
+          <li><a href="#updates">UPDATES</a></li>
+        </ul>
+      </nav>
       <img src="images/cart-icon.svg" alt="cart icon" />
-
-      <div class="nav-container">
-        <nav>
-          <ul>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#shop">SHOP</a></li>
-            <li><a href="#featured">FEATURED</a></li>
-            <li><a href="#updates">UPDATES</a></li>
-          </ul>
-        </nav>
-      </div>
     </header>
+    <!-- end of header -->
 
     <!-- main area -->
     <a class="screen-reader-text" href="#main">Skip to content</a>
@@ -40,108 +37,101 @@
         <div class="banner-image">
           <p>NEW COLLECTION</p>
           <p>Spring/Summer 2016</p>
+          <div id="about">
+            <p><em>Hand-Crafted</em> <strong>Styles</strong></p>
+          </div>
         </div>
 
-        <div id="about">
-          <p><em>Hand-Crafted</em> <strong>Styles</strong></p>
+        <div class="about container">
+          <p>
+            Aloha Apparel Co. sells only the finnest ready-to-travel clothing.
+            Browse our
+          </p>
+          <p>current selection of products or sign-up for updates below.</p>
         </div>
       </section>
 
-      <section class="about container">
-        <p>
-          Aloha Apparel Co. sells only the finnest ready-to-travel clothing.
-          Browse our
-        </p>
-
-        <p>current selection of products or sign-up for updates below.</p>
+      <section class="new-entrys">
+        <div class="grid-container">
+          <div class="bg-image">
+            MENS<img src="images/mens-category.jpg" alt="mens-category" />
+          </div>
+          <div class="bg-image">
+            TRENDS<img src="images/trends-category.jpg" alt="trends-category" />
+          </div>
+          <div class="bg-image">
+            GLASSES<img
+              src="images/glasses-category.jpg"
+              alt="glasses-category"
+            />
+          </div>
+          <div class="bg-image">
+            SALE<img src="images/sale-category.jpg" alt="sale-category" />
+          </div>
+          <div class="bg-image">
+            BAGS<img src="images/bags-category.jpg" alt="bags-category" />
+          </div>
+          <div class="bg-image">
+            WOMANS<img src="images/womens-category.jpg" alt="womens-category" />
+          </div>
+        </div>
       </section>
 
-      <div id="shop">
-        <section class="shop-options container">
-          <div class="flex-container">
-            <ul class="product-categories">
-              <li style="order: 3">
-                MENS
-                <img src="images/mens-category.jpg" alt="mens-category" />
-              </li>
-              <li style="order: 2">
-                TRENDS
-                <img src="images/trends-category.jpg" alt="trends-category" />
-              </li>
-              <li style="order: 4">
-                GLASSES
-                <img src="images/glasses-category.jpg" alt="glasses-category" />
-              </li>
-              <li style="order: 5">
-                SALE
-                <img src="images/sale-category.jpg" alt="sale-category" />
-              </li>
-              <li style="order: 6">
-                BAGS
-                <img src="images/bags-category.jpg" alt="bags-category" />
-              </li>
-              <li style="order: 1">
-                WOMANS
-                <img src="images/womens-category.jpg" alt="womens-category" />
-              </li>
-            </ul>
+      <section class="love-shop-container">
+        <p><em>Most-loved</em><strong>Poducts</strong></p>
+        <div class="loveShopContainer">
+          <ul class="mostLoved main-carousel">
+            <li class="stretch knit dress carousel-cell">
+              <img src="images/stretch-knit-dress.jpg" alt="" />
+              <p>Knit Dress</p>
+            </li>
+            <li class="cotten blue shirt carousel-cell">
+              <img src="images/cotton-blue-shirt.jpg" alt="" />
+              <p>Cotten Blue Shirt</p>
+            </li>
+            <li class="checked stretch dress carousel-cell">
+              <img src="images/blue-silk-dress.jpg" alt="" />
+              <p>Stretch Dress</p>
+            </li>
+            <li class="blue hipster backpack carousel-cell">
+              <img src="images/blue-hipster-backpack.jpg" alt="" />
+              <p>Blue Hipster Backpack</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- start of footer -->
+      <footer>
+        <div class="footer"></div>
+        <section class="sign-container">
+          <div class="sign-img">
+            <div class="banner-text">
+              <h3><em>Sign-up for </em><strong>updates</strong></h3>
+              <p>
+                Stay updated on our latest product releases, be first to find
+                out about
+              </p>
+              <p>
+                upcoming sales, and get free style tips from out blog.
+                Unsubscribe at any time.
+              </p>
+              <form action="email">
+                <input
+                  type="text"
+                  placeholder="Your Email"
+                  type="button"
+                  value="Subscribe"
+                  style="border-radius: 25%;background-color: red;"
+                />
+              </form>
+            </div>
           </div>
         </section>
-      </div>
+      </footer>
+      <!-- end of footer -->
     </main>
+
     <!-- end of main area -->
-
-    <section class="love-shop-container">
-      <p><em>Most-loved</em><strong>Poducts</strong></p>
-      <div id="featured"></div>
-      <div class="loveShopContainer">
-        <ul class="mostLoved main-carousel">
-          <li class="stretch knit dress carousel-cell">
-            <img src="images/stretch-knit-dress.jpg" alt="" />
-            <p>Knit Dress</p>
-          </li>
-          <li class="cotten blue shirt carousel-cell">
-            <img src="images/cotton-blue-shirt.jpg" alt="" />
-            <p>Cotten Blue Shirt</p>
-          </li>
-          <li class="checked stretch dress carousel-cell">
-            <img src="images/blue-silk-dress.jpg" alt="" />
-            <p>Stretch Dress</p>
-          </li>
-          <li class="blue hipster backpack carousel-cell">
-            <img src="images/blue-hipster-backpack.jpg" alt="" />
-            <p>Blue Hipster Backpack</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <footer>
-      <div class="footer"></div>
-      <section class="sign-container">
-        <div id="updates"></div>
-        <div class="sign-img">
-          <div class="banner-text">
-            <h3><em>Sign-up for </em><strong>updates</strong></h3>
-            <p>
-              Stay updated on our latest product releases, be first to find out
-              about <br />
-              upcoming sales, and get free style tips from out blog. Unsubscribe
-              at any time.
-            </p>
-            <form action="email">
-              <input type="text" placeholder="Your Email" />
-              &nbsp;&nbsp;&nbsp;
-              <input
-                type="button"
-                value="Subscribe"
-                style="border-radius: 25%;background-color: red;"
-              />
-            </form>
-          </div>
-        </div>
-      </section>
-    </footer>
 
     <script src="./tota11y.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

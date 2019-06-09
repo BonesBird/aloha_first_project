@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  width: auto, fit-content, center;
+  width: auto, fit-content;
 }
 
 @font-face {
@@ -90,6 +90,7 @@
   font-style: italic;
 }
 /* end of fonts */
+
 body {
   font-family: "Raleway";
 }
@@ -97,9 +98,29 @@ body {
 html {
   scroll-behavior: smooth;
 }
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+div {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.site-header {
+  display: flex;
+  position: relative;
+  top: 50%;
+  width: 100%;
+  padding: 1rem 0 0.5rem;
+  justify-content: space-between;
+}
 
+.banner {
+  text-decoration-color: floralwhite;
+}
 .banner-image {
   max-width: 100%;
+  height: 100%;
   background-image: linear-gradient(rgba(113, 210, 255, 0.144), rgba(52, 112, 240, 0.068)),
     url("images/banner-girl.png"), url("images/flower-bkgd\ copy.jpg");
   flex-wrap: wrap;
@@ -109,24 +130,6 @@ html {
   flex-grow: 1;
   flex-shrink: 1;
 }
-
-.banner {
-  text-decoration-color: floralwhite;
-}
-
-.button1 {
-  padding: 20px;
-  border-radius: 55%;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  height: 200px;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
 .main-carousel {
   list-style: none;
 }
@@ -160,3 +163,5 @@ html {
   width: 1px;
   overflow: hidden;
 }
+
+/* new section */
