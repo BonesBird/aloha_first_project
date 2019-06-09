@@ -207,7 +207,13 @@ main {
 .bottom-content {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: -moz-element("images/wave-bkgd.jpg");
+  background-image: url("images/wave-bkgd.jpg");
+  flex-wrap: wrap;
+  background-size: auto, contain, contain;
+  background-position: center;
+  background-repeat: repeat, no-repeat, repeat;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .stay-updated {
