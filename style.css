@@ -93,6 +93,8 @@
 
 body {
   font-family: "Raleway";
+  position: relative;
+  min-height: 100%;
 }
 
 html {
@@ -105,10 +107,35 @@ section {
 div {
   margin-bottom: 100px;
 }
-.bg-image {
-  max-width: 60px;
-  margin-bottom: 0px;
+
+nav {
+  text-align: center;
+  margin: 20px 0 0;
+  padding: 10px 0;
 }
+
+nav ul {
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 5px 5px;
+}
+nav a {
+  font-weight: normal;
+  padding: 10px 5px;
+  font-size: 0.8em;
+  text-decoration-line: none;
+  color: red;
+}
+
+main {
+  text-align: center;
+}
+
 .site-header {
   display: flex;
   position: relative;
@@ -116,9 +143,15 @@ div {
   width: 100%;
   padding: 1rem 0 0.5rem;
   justify-content: space-between;
+  max-height: 80px;
+  margin-left: -125px;
+}
+.shopping-kart {
+  margin-right: -114px;
+  margin-left: 161px;
 }
 
-.banner {
+.top-content {
   text-decoration-color: floralwhite;
 }
 .banner-image {
@@ -134,6 +167,11 @@ div {
   flex-shrink: 1;
 }
 
+.about .container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
 .grid-container {
   justify-content: space-evenly;
   padding: 20px 0;
@@ -143,10 +181,49 @@ div {
   margin: 0;
 }
 .bg-image img {
-  width: 446px;
-  height: 350px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bg-image {
+  max-width: fit-content;
+  margin-bottom: 0px;
 }
 
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+  max-height: 100%;
+  margin-bottom: 0px;
+  height: 300px;
+}
+
+.fab {
+  color: white;
+}
+/* using display grid for easier spacing between p tags */
+.contact-info,
+.social-media-info {
+  color: white;
+}
+.contact-info {
+  float: left;
+  display: grid;
+  text-align: -webkit-left;
+  margin-top: 3%;
+}
+.social-media-info {
+  float: right;
+  display: grid;
+  text-align: -webkit-left;
+  margin: auto;
+}
+/* carousel */
 .main-carousel {
   list-style: none;
 }
