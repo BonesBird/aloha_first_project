@@ -105,6 +105,10 @@ section {
 div {
   margin-bottom: 100px;
 }
+.bg-image {
+  max-width: 60px;
+  margin-bottom: 0px;
+}
 .site-header {
   display: flex;
   position: relative;
@@ -131,10 +135,16 @@ div {
 }
 
 .grid-container {
+  justify-content: space-evenly;
+  padding: 20px 0;
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  grid-gap: 2rem;
+  margin: 0;
+}
+.bg-image img {
+  width: 446px;
+  height: 350px;
 }
 
 .main-carousel {
