@@ -1,7 +1,11 @@
 # Aloha-Project-One
-# In-All-Honesty-Completed-To-The-Best-Of-My-Ablility-With-What-I-So-Far-Learned
-# Getting-Better-As-time-Permits
-# No-Wifi-At-My-House
+
+# didnt-know-where-to-change-the-fonts-bassed-off-the-example-images,-however-did-know-how-to-change-fonts.
+
+# did-my-best-to-round-subscribe-button
+
 # Struggled-Most-With-Boxing-Images
-# I-Written-All-My-Notes-On-How-I-Did-Things-And-Why
+
+# had-to-fight-to-get-awsome-fonts-icons-to-show-up
+
 # Happy-With-My-Own-Overall-Progress
