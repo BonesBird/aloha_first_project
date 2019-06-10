@@ -133,14 +133,23 @@ nav a {
 main {
   text-align: center;
 }
+h2 {
+  font-size: xx-large;
+}
 h3 {
   font-size: 1.75rem;
+}
+h4 {
+  font-size: xx-large;
 }
 em {
   padding-right: 20px;
 }
 a:hover {
   background-color: green;
+}
+.fake-email:hover {
+  background-color: skyblue;
 }
 
 .site-header-container {
@@ -280,7 +289,7 @@ top-input,
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: black;
+  background-color: rgb(37, 37, 37);
   text-align: center;
   max-height: 100%;
   margin-bottom: 0px;
