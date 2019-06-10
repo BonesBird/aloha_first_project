@@ -133,6 +133,12 @@ nav a {
 main {
   text-align: center;
 }
+h3 {
+  font-size: 1.75rem;
+}
+em {
+  padding-right: 20px;
+}
 
 .site-header-container {
   display: flex;
@@ -190,13 +196,8 @@ main {
   grid-template-rows: repeat(2, 225px);
   grid-template-columns: repeat(3, 425px);
   grid-gap: 5px;
-  flex-wrap: nowrap;
 }
-.responsive {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-}
+
 .bg-image img {
   display: block;
   width: 100%;
@@ -219,20 +220,20 @@ main {
   max-width: fit-content;
   margin-bottom: 0px;
 }
+.sign-up {
+  padding-top: 10%;
+}
 .sign {
   font-size: 1.75rem;
 }
 .bottom-content {
-  padding-top: 6%;
   padding-bottom: 15%;
+  max-height: 350px;
   background-image: url("images/wave-bkgd.jpg");
   flex-wrap: wrap;
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  flex-grow: 1;
-  flex-shrink: 1;
 }
 
 .stay-updated {
