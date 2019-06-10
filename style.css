@@ -1,7 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-  width: auto, fit-content;
-}
+} */
 
 @font-face {
   font-family: "Raleway";
@@ -95,17 +94,16 @@ body {
   font-family: "Raleway";
   position: relative;
   min-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 html {
   scroll-behavior: smooth;
 }
-section {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
+
 div {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 nav {
@@ -136,15 +134,15 @@ main {
   text-align: center;
 }
 
-.site-header {
+.site-header-container {
   display: flex;
   position: relative;
   top: 50%;
   width: 100%;
   padding: 1rem 0 0.5rem;
   justify-content: space-between;
-  max-height: 80px;
-  margin-left: -125px;
+  max-height: 60px;
+  margin-left: -120px;
 }
 .shopping-kart {
   margin-right: -114px;
@@ -178,7 +176,7 @@ main {
 .only-finnest {
   display: grid;
 }
-.about .container {
+.about-container {
   max-width: 100rem;
   margin: 0 auto;
   padding: 0 2rem 2rem;
@@ -205,13 +203,14 @@ main {
   font-size: 1.75rem;
 }
 .bottom-content {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 6%;
+  padding-bottom: 15%;
   background-image: url("images/wave-bkgd.jpg");
   flex-wrap: wrap;
-  background-size: auto, contain, contain;
+  height: 100%;
   background-position: center;
-  background-repeat: repeat, no-repeat, repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
   flex-grow: 1;
   flex-shrink: 1;
 }
@@ -219,6 +218,37 @@ main {
 .stay-updated {
   display: grid;
 }
+
+form {
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: transparent;
+  max-width: 300px;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
 .footer {
   right: 0;
   bottom: 0;
